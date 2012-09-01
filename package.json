@@ -14,7 +14,7 @@
     "l10n": "git://github.com/highfellow/node-l10n.git"
   },
   "main": "l10n-file.js",
-  "keywords": ["localisation"],
+  "keywords": ["l10n","localisation"],
   "scripts": {
   },
   "devDependencies": {
