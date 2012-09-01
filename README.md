@@ -1,14 +1,14 @@
 node-l10n-file
 ==============
 
-A filesystem adapter for node-l10n; this allows you to load loaclisation resources from the filesystem under nodejs.
+A filesystem adapter for node-l10n; this allows you to load localisation resources from the filesystem under nodejs.
 
-See test/test.js for the API. (will write this up properly later).
+See example/example.js for an example of how to use this with node-l10n.
 
-Results from the test:
+Results from the example code:
 
 ```
-[andy@monkey test]$ node test.js 
+[andy@monkey example]$ node example.js 
 
 Testing in language: en
 =======================
