@@ -9,7 +9,6 @@ function L10n_File() {
   // return a resource loader function that works with the filesystem under nodejs.
   this.getLoader = function() {
     return(function(path,success,failure,async) {
-      path = './' + path;
       if (async) {
         // load the resource asynchronously.
         fs.readFile(path, 'utf-8', function(err, data) {
