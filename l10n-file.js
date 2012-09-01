@@ -3,7 +3,9 @@
  * (C) 2012 Andrew Baxter <andy@highfellow.org>
  **/
 
-function L10n-file() {
+fs = require('fs');
+
+function L10n_File() {
   this.getLoader = function() {
     return(function(path,success,failure,async) {
       path = './' + path;
@@ -34,4 +36,4 @@ function L10n-file() {
   }
 }
 
-module.exports = L10n-file;
+module.exports = L10n_File;

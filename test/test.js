@@ -2,9 +2,8 @@
  *  Test code for node-l10n.
  **/
 
-var fs = require('fs');
 var L10n = require('l10n');
-var L10n-file = require('../l10n-file.js');
+var L10n_File = require('../l10n-file.js');
 
 // run through plurals using a given adjective.
 function repeat(adjKey) {
@@ -34,7 +33,7 @@ function testLanguage(lang, callback) {
 }
 
 // initialise L10n with the file adapter.
-var l10n = new L10n(new L10n-file());
+var l10n = new L10n(new L10n_File());
 
 // do the tests.
 testLanguage('en', function() {

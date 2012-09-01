@@ -11,7 +11,7 @@
     "node": "~0.6.10"
   },
   "dependencies": {
-    "l10n": "https://github.com/highfellow/node-l10n.git"
+    "l10n": "git://github.com/highfellow/node-l10n.git"
   },
   "main": "l10n-file.js",
   "keywords": ["localisation"],
