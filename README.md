@@ -3,7 +3,7 @@ node-l10n-file
 
 A filesystem adapter for node-l10n; this allows you to load localisation resources from the filesystem under nodejs.
 
-See the example folder for an example of how to use this with node-l10n.
+See 'example' directory for an example of how to use this with node-l10n.
 
 Results from the example code:
 
