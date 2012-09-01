@@ -1,0 +1,23 @@
+{
+  "author": "Andrew Baxter <andy@highfellow.org> (http://highfellow.org)",
+  "name": "l10n-file",
+  "description": "File adapter for node-l10n",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/highfellow/node-l10n-file.git"
+  },
+  "engines": {
+    "node": "~0.6.10"
+  },
+  "dependencies": {
+    "l10n": "https://github.com/highfellow/node-l10n.git"
+  },
+  "main": "l10n-file.js",
+  "keywords": ["localisation"],
+  "scripts": {
+  },
+  "devDependencies": {
+  },
+  "optionalDependencies": {}
+}
