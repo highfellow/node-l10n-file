@@ -6,6 +6,7 @@
 fs = require('fs');
 
 function L10n_File() {
+  // return a resource loader function that works with the filesystem under nodejs.
   this.getLoader = function() {
     return(function(path,success,failure,async) {
       path = './' + path;
@@ -26,11 +27,7 @@ function L10n_File() {
           console.log("Error loading resource file:", path, err);
           failure && failure(err);
         }
-        if (data && (data != '')) {
-          success && success(data);
-        } else {
-          failure && failure(err);
-        }
+        success && success(data);
       }
     });
   }
